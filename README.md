@@ -4,8 +4,6 @@ A modern personal portfolio website for Jafeer Abdullah, built to showcase web d
 
 ## Live Preview
 
-After deployment, add your live portfolio link here:
-
 ```text
 abdullah-portfolio-five-phi.vercel.app
 ```
