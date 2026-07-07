@@ -1,0 +1,484 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jafeer Abdullah - Full Stack Developer & Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">JA</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="ai-hero-background" aria-hidden="true">
+            <canvas id="aiHeroCanvas" class="ai-hero-canvas"></canvas>
+            <div class="ai-hero-vignette"></div>
+            <div class="ai-hero-scanline"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Jafeer Abdullah</span></h1>
+            <p class="hero-subtitle role-rotator" aria-label="Full Stack Developer, UI/UX Designer, Mobile App Developer">
+                <span class="role-prefix">I am a</span>
+                <span class="role-words" aria-hidden="true">
+                    <span>Full Stack Developer</span>
+                    <span>UI/UX Designer</span>
+                    <span>Mobile App Developer</span>
+                </span>
+            </p>
+            <p class="hero-description">Crafting modern, clean, and professional digital solutions with responsive layouts and user-friendly experiences</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-design" aria-hidden="true">
+            <div class="design-grid"></div>
+            <div class="design-card design-card-main">
+                <div class="design-card-header">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="design-card-body">
+                    <div class="design-kicker">Portfolio Studio</div>
+                    <div class="design-title-row">
+                        <i class="fas fa-layer-group"></i>
+                        <span>Digital Product Build</span>
+                    </div>
+                    <div class="design-progress">
+                        <span style="--line-width: 92%"></span>
+                        <span style="--line-width: 74%"></span>
+                        <span style="--line-width: 86%"></span>
+                    </div>
+                    <div class="design-metrics">
+                        <div>
+                            <strong>UI</strong>
+                            <span>Design</span>
+                        </div>
+                        <div>
+                            <strong>App</strong>
+                            <span>Flutter</span>
+                        </div>
+                        <div>
+                            <strong>Web</strong>
+                            <span>Clean</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="design-phone">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <div class="phone-card"></div>
+                    <div class="phone-line"></div>
+                    <div class="phone-line short"></div>
+                    <div class="phone-tabs">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="design-code-card">
+                <div><span class="code-purple">const</span> project = <span class="code-pink">'premium'</span>;</div>
+                <div><span class="code-purple">build</span>(responsiveUI);</div>
+                <div><span class="code-pink">deploy</span>.withCare();</div>
+            </div>
+            <div class="design-chip chip-mobile"><i class="fas fa-mobile-screen-button"></i> Mobile</div>
+            <div class="design-chip chip-design"><i class="fas fa-pen-nib"></i> UI/UX</div>
+            <div class="design-chip chip-code"><i class="fas fa-code"></i> Code</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-photo-wrap">
+                    <div class="hero-photo-frame about-photo-frame">
+                        <img src="profile.png" alt="Jafeer Abdullah" class="hero-profile-image" width="768" height="1344" loading="lazy" decoding="async">
+                    </div>
+                    <div class="floating-card card-1"></div>
+                    <div class="floating-card card-2"></div>
+                    <div class="floating-card card-3"></div>
+                </div>
+                <div class="about-text">
+                    <p>Hi, I'm Abdullah, a creative freelancer specializing in Flutter mobile app development, web development, UI/UX design, and graphic design. With a passion for creating exceptional digital experiences, I focus on building solutions that are not only visually stunning but also highly functional.</p>
+                    <p>My expertise spans across multiple disciplines, allowing me to deliver comprehensive solutions from concept to deployment. Whether you need a mobile app, responsive website, or compelling visual design, I'm here to bring your vision to life.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>30+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Development</h3>
+                    <p>Flutter, Firebase, Native Android, Cross-platform Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>HTML/CSS, JavaScript, React, Vue, Responsive Design, Backend</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, User Research, Prototyping, Wireframing</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Logo Design, Branding, Poster Design, Social Media Design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Firebase, Database Design, API Development</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>Branding</h3>
+                    <p>Business Card Design, Social Media Branding, Corporate Identity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Mobile App Development</h3>
+                    <p>Custom Flutter applications with Firebase integration, optimized for performance and user experience</p>
+                    <a href="#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>Web Development</h3>
+                    <p>Responsive websites and web applications built with modern technologies and best practices</p>
+                    <a href="#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that combine aesthetics with functionality for optimal user engagement</p>
+                    <a href="#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">04</div>
+                    <h3>Graphic Design</h3>
+                    <p>Professional branding, logos, social media graphics, and visual content for your business</p>
+                    <a href="#contact" class="service-link">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="abu-fashion-store.png" alt="Abu Fashion Store mobile app interface preview" class="project-screenshot" width="1586" height="992" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Flutter E-Commerce App</p>
+                        <h3>Abu Fashion Store</h3>
+                        <p>A modern Flutter-based e-commerce mobile application for fashion product browsing, cart management, wishlists, and responsive online shopping with Firebase integration.</p>
+                        <ul class="project-features">
+                            <li>User login & signup</li>
+                            <li>Product categories</li>
+                            <li>Shopping cart system</li>
+                            <li>Wishlist functionality</li>
+                            <li>Firebase authentication</li>
+                            <li>Clean mobile navigation</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> Flutter App Developer, UI/UX Designer, Firebase Integration</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Firebase</span>
+                            <span>REST API</span>
+                            <span>SQL</span>
+                        </div>
+                        <a href="https://github.com/jafeerabdullah/abu-fashion-store-mobile.git" class="project-link" target="_blank" rel="noopener noreferrer">View on GitHub &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/project-delivery-tracker.png" alt="Smart Delivery Tracker mobile app screens preview" class="project-screenshot" width="1672" height="941" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Sample Flutter App</p>
+                        <h3>Smart Delivery Tracker</h3>
+                        <p>A delivery management concept app for customers, riders, and admins with order tracking, real-time status updates, and a clean mobile-first interface.</p>
+                        <ul class="project-features">
+                            <li>Live order tracking</li>
+                            <li>Rider status updates</li>
+                            <li>Admin order dashboard</li>
+                            <li>Push notification flow</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> Flutter Developer, Firebase Setup, UI/UX Design</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Maps</span>
+                            <span>UI/UX</span>
+                        </div>
+                        <a href="#contact" class="project-link">Request Similar Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/project-cafe-website.png" alt="Cafe Bloom responsive website preview on laptop and phone" class="project-screenshot" width="1672" height="941" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Sample Business Website</p>
+                        <h3>Cafe Bloom Website</h3>
+                        <p>A responsive cafe website concept with menu highlights, table booking, gallery sections, and conversion-focused contact links for local customers.</p>
+                        <ul class="project-features">
+                            <li>Responsive landing page</li>
+                            <li>Menu showcase sections</li>
+                            <li>Reservation CTA</li>
+                            <li>SEO-ready structure</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> Frontend Developer, Layout Design, Content Structure</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>SEO</span>
+                        </div>
+                        <a href="#contact" class="project-link">Request Similar Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/project-learning-dashboard.png" alt="Learning Dashboard analytics interface preview" class="project-screenshot" width="1672" height="941" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Sample Web App</p>
+                        <h3>Learning Dashboard</h3>
+                        <p>An education dashboard interface for tracking courses, student progress, assignments, and performance analytics from a single clean admin view.</p>
+                        <ul class="project-features">
+                            <li>Course progress cards</li>
+                            <li>Analytics widgets</li>
+                            <li>Student activity list</li>
+                            <li>Dark UI components</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> UI Designer, Frontend Developer, Component Planning</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Dashboard</span>
+                            <span>Charts</span>
+                            <span>Figma</span>
+                        </div>
+                        <a href="#contact" class="project-link">Request Similar Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/project-clinic-booking.png" alt="Clinic Appointment System booking dashboard preview" class="project-screenshot" width="1672" height="941" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Sample Full Stack Project</p>
+                        <h3>Clinic Appointment System</h3>
+                        <p>A clinic booking system concept that lets patients request appointments while staff manage schedules, availability, and appointment status updates.</p>
+                        <ul class="project-features">
+                            <li>Appointment booking</li>
+                            <li>Admin schedule view</li>
+                            <li>Patient contact forms</li>
+                            <li>Status management</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> Full Stack Developer, Database Design, UI Integration</p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Firebase</span>
+                            <span>Forms</span>
+                            <span>Admin Panel</span>
+                        </div>
+                        <a href="#contact" class="project-link">Request Similar Project &rarr;</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/project-brand-launch-kit.png" alt="Brand Launch Kit identity materials preview" class="project-screenshot" width="1672" height="941" loading="lazy" decoding="async">
+                    </div>
+                    <div class="project-info">
+                        <p class="project-kicker">Sample Design Package</p>
+                        <h3>Brand Launch Kit</h3>
+                        <p>A complete visual identity concept for a startup, covering logo direction, brand colors, social media posts, business cards, and launch graphics.</p>
+                        <ul class="project-features">
+                            <li>Logo concept system</li>
+                            <li>Social media templates</li>
+                            <li>Business card design</li>
+                            <li>Brand color palette</li>
+                        </ul>
+                        <p class="project-role"><strong>Role:</strong> Graphic Designer, Brand Designer, Social Media Creative</p>
+                        <div class="project-tags">
+                            <span>Branding</span>
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Canva</span>
+                        </div>
+                        <a href="#contact" class="project-link">Request Similar Project &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Have a project in mind? I'd love to hear about it. Let's create something amazing together.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:jafeerabdullah4g@gmail.com">jafeerabdullah4g@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+94 77 067 1752</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Srilanka</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Jafeer Abdullah</h4>
+                    <p>Full Stack Developer | UI/UX Designer | Mobile App Developer</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Mobile App Development</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/jafeerabdullah" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fab fa-github"></i></a>
+                        <a href="mailto:jafeerabdullah4g@gmail.com" aria-label="Send email"><i class="fas fa-envelope"></i></a>
+                        <a href="tel:+94770671752" aria-label="Call Jafeer Abdullah"><i class="fas fa-phone"></i></a>
+                        <a href="https://wa.me/94770671752" target="_blank" rel="noopener noreferrer" aria-label="Message on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jafeer Abdullah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
