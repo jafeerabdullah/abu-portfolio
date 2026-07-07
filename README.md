@@ -7,7 +7,7 @@ A modern personal portfolio website for Jafeer Abdullah, built to showcase web d
 After deployment, add your live portfolio link here:
 
 ```text
-https://jafeerabdullah.github.io/abu-portfolio/
+abdullah-portfolio-five-phi.vercel.app
 ```
 
 ## About The Project
