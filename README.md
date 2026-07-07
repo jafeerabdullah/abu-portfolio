@@ -95,7 +95,7 @@ This portfolio can be deployed with GitHub Pages.
 Your website will be available at:
 
 ```text
-https://jafeerabdullah.github.io/abu-portfolio/
+abdullah-portfolio-five-phi.vercel.app
 ```
 
 ## Contact
